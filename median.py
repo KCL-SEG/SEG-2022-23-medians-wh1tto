@@ -9,6 +9,7 @@ while True:
     else:
         break
 print(numbers)
+numbers.sort()
 if len(numbers)%2 == 0:
     x = len(numbers)//2
     y = numbers[x] - numbers[x-1]
